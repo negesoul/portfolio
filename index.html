@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Negesoul</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+  <div class="fullscreen" id="welcomeScreen">
+    <h1 id="greeting">Salem</h1>
+  </div>
+  <div id="navbar">
+      <!-- <div class="navbar-nav"> -->
+        <a href="#about" class="nav-link" data-target="about">ABOUT ME</a>
+        <a href="#portfolio" class="nav-link" data-target="portfolio">PORTFOLIO</a>
+        <a href="#home" class="nav-link" data-target="home">CONTACTS</a>
+      <!-- </div> -->
+    </div>
+    <nav class="menu">
+      <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">&#9776;</a>
+    </nav>
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="#about" class="menu-link" onclick="handleMenuClick(event, '#about')">ABOUT ME</a>
+      <a href="#portfolio" class="menu-link" onclick="handleMenuClick(event, '#portfolio')">PORTFOLIO</a>
+      <a href="#contact" class="menu-link" onclick="handleMenuClick(event, '#contact')">CONTACTS</a>
+    </div>
+  <header class="header" id="home">
+    <h1 class="title" id="topad">
+      <span class="welcom"> I'm</span><br />
+      <span class="typewrite"> Photographer </span>
+    </h1>
+    <h2 class="subtitle" id="topad">
+      Anuar <br />
+      a.k.a <br />
+      Negesoul
+    </h2>
+    <div class="social social-media" id="topad">
+      <a href="https://www.instagram.com/negesoull?igsh=ejE5cHc4cjdiaWN1&utm_source=qr" class="social-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://t.me/negesoul" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+      <a href="https://www.tiktok.com/@negesoul?_t=8mxHYYSoEab&_r=1" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.linkedin.com/in/anuar-seitkan-wyw/" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </header>
+  <section class="about" id="about">
+    <div class="items">
+      <div class="item image-right">
+        <div class="image">
+          <img src="./images/aboutmePhoto.jpg" alt="" srcset="" />
+        </div>
+      </div>
+      <div class="item text-info">
+        <div class="heading">
+          <div class="title">about me</div>
+          <div class="subtitle">Read more about me</div>
+        </div>
+        <div class="content">
+          <p>
+            <!-- Меня зовут Ануар. Я фотограф из Астаны, специализируюсь на портретной съемке, съемке концертов и различных мероприятий. В моем объективе побывали люди самых разных профессий и взглядов. Я всегда рад новым сотрудничествам и хотел бы поработать с вами. Ознакомьтесь с моим портфолио ниже – фотографии сами расскажут о моем стиле и подходе к работе. -->
+            Photographer from Astana, capturing the essence of urban life and
+            natural beauty. Passionate about storytelling through vibrant,
+            evocative images.
+          </p>
+          <p>
+            I specialize in portrait and event photography, capturing concerts
+            and personal moments. Additionally, I explore architectural
+            photography, creating striking images that tell compelling stories
+            and evoke strong emotions.
+          </p>
+          <img src="./images/sign.svg" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio" id="portfolio">
+    <div class="categories">
+      <div class="portfolioText">
+        <h1>PORTFOLIO</h1>
+      </div>
+      <div class="celebrities categories_section">
+        <img src="./images/CelebritiesBack.jpg" alt="" srcset="">
+        <a href="./Celebrities/" class="celeb-text">CELEBRITIES</a>
+      </div>
+      <div class="portraits categories_section">
+        <img src="./images/PortraitsBack.jpg" alt="" srcset="">
+        <a href="./Portraits/" class="prts-text">PORTRAITS</a>
+      </div>
+      <div class="events categories_section">
+        <img src="./images/EventsBack.jpg" alt="" srcset="" />
+        <a href="./Events/" class="events-text">EVENTS</a>
+      </div>
+      <div class="people categories_section">
+        <img src="./images/PeopleBack.jpg" alt="" srcset="">
+        <a href="./People/" class="ppl-text">PEOPLE</a>
+      </div>
+      <div class="twoK categories_section">
+        <img src="./images/twoKBack.jpg" alt="" srcset="">
+        <a href="./TwoK/" class="twoK-text">2K</a>
+      </div>
+      <div class="architecture categories_section">
+        <img src="./images/ArchitectureBack.jpg" alt="" srcset="">
+        <a href="./Architecture/" class="architecture-text">ARCHITECTURE</a>
+      </div>
+      <div class="bonus categories_section">
+        <img src="./images/bonusBack.jpg" alt="" srcset="">
+        <a href="./Bonus/" class="bonus-text">BONUS</a>
+      </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2024 Negesoul Photography. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/negesoull?igsh=ejE5cHc4cjdiaWN1&utm_source=qr" class="social-link" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://t.me/negesoul" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.tiktok.com/@negesoul?_t=8mxHYYSoEab&_r=1" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.linkedin.com/in/anuar-seitkan-wyw/" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</footer>
+  <script src="index.js"></script>
+</body>
+
+</html>

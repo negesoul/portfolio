@@ -1,0 +1,30 @@
+
+@property --myColor1 {
+  syntax: '<color>';
+  initial-value: #f7da5a;
+  inherits: false;
+}
+
+@property --myColor2 {
+  syntax: '<color>';
+  initial-value: #f7da5a;
+  inherits: false;
+}
+
+@property --myColor3 {
+  syntax: '<color>';
+  initial-value: #f7da5a;
+  inherits: false;
+}
+.body-grad {
+  --myColor1: #FBD786;
+  --myColor2: #FBD786;
+  --myColor3: #F37335;
+}
+body {
+  z-index: 0;
+  background-color: #101010;
+
+  background: linear-gradient(180deg, var(--myColor1) 0%, var(--myColor2) 50%, var(--myColor3) 91%);
+  transition: --myColor1 1s, --myColor2 1s, --myColor3 1s;
+}

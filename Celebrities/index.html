@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celebrities</title>
+    <link rel="stylesheet" href="../styleCategories.css" />
+    <link rel="stylesheet" href="styleCB.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    "
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="../index.html">Home</a>
+      <a href="../Celebrities/">Celebrities</a>
+      <a href="../Portraits/">Portraits</a>
+      <a href="../Events/">Events</a>
+      <a href="../People/">People</a>
+      <a href="../TwoK/">2K</a>
+      <a href="../Architecture/">Architecture</a>
+      <a href="../Bonus/">Bonus</a>
+    </nav>
+
+    <nav class="menu">
+      <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()"
+        >&#9776;</a
+      >
+    </nav>
+    <div id="mobileMenu" class="mobile-menu">
+      <a
+        href="../index.html"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../index.html')"
+        >Home</a
+      >
+      <a
+        href="../Celebrities/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../Celebrities/')"
+        >Celebrities</a
+      >
+      <a
+        href="../Portraits/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../Portraits/')"
+        >Portraits</a
+      >
+      <a
+        href="../Events/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../Events/')"
+        >Events</a
+      >
+      <a
+        href="../People/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../People/')"
+        >People</a
+      >
+      <a
+        href="../TwoK/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../TwoK/')"
+        >2K</a
+      >
+      <a
+        href="../Architecture/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../Architecture/')"
+        >Architecture</a
+      >
+      <a
+        href="../Bonus/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../Bonus/')"
+        >Bonus</a
+      >
+    </div>
+
+    <section class="content">
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        <div class="fullscreen-container">
+          <button class="iconbtn exit-fullscreen">
+            <span class="material-symbols-outlined"> arrow_back </span>
+          </button>
+          <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list" id="splide__list"></ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <script src="../indexCB.js"></script>
+    <script>
+      const imagesList = [
+        "../images/Celebrities-6.jpg",
+
+        "../images/Celebrities-3.jpg",
+
+        "../images/Celebrities-9.jpg",
+
+        "../images/Celebrities-12.jpg",
+
+        "../images/Celebrities-5.jpg",
+
+        "../images/Celebrities-10.jpg",
+
+        "../images/Celebrities-2.jpg",
+
+        "../images/Celebrities-13.jpg",
+
+        "../images/Celebrities-19.jpg",
+
+        "../images/Celebrities-16.jpg",
+
+        "../images/Celebrities-4.jpg",
+
+        "../images/Celebrities-14.jpg",
+
+        "../images/Celebrities-15.jpg",
+
+        "../images/Celebrities-21.jpg",
+
+        "../images/Celebrities-17.jpg",
+
+        "../images/Celebrities-1.jpg",
+
+        "../images/Celebrities-7.jpg",
+
+        "../images/Celebrities-11.jpg",
+
+        "../images/Celebrities-8.jpg",
+
+        "../images/Celebrities-18.jpg",
+      ];
+    </script>
+  </body>
+</html>

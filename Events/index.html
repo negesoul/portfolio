@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="../styleCategories.css" />
+    <link rel="stylesheet" href="styleEv.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    "
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="../index.html">Home</a>
+      <a href="../Celebrities/">Celebrities</a>
+      <a href="../Portraits/">Portraits</a>
+      <a href="../Events/">Events</a>
+      <a href="../People/">People</a>
+      <a href="../TwoK/">2K</a>
+      <a href="../Architecture/">architecture</a>
+      <a href="../Bonus/">bonus</a>
+    </nav>
+
+    <nav class="menu">
+      <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()"
+        >&#9776;</a
+      >
+    </nav>
+    <div id="mobileMenu" class="mobile-menu">
+      <a
+        href="../index.html"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../index.html')"
+        >Home</a
+      >
+      <a
+        href="../Celebrities/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../Celebrities/')"
+        >Celebrities</a
+      >
+      <a
+        href="../Portraits/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../Portraits/')"
+        >Portraits</a
+      >
+      <a
+        href="../Events/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../Events/')"
+        >Events</a
+      >
+      <a
+        href="../People/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../People/')"
+        >People</a
+      >
+      <a
+        href="../TwoK/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../TwoK/')"
+        >2K</a
+      >
+      <a
+        href="../Architecture/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../Architecture/')"
+        >Architecture</a
+      >
+      <a
+        href="../Bonus/"
+        class="menu-link"
+        onclick="handleMenuClick(event, '../Bonus/')"
+        >Bonus</a
+      >
+    </div>
+
+    <section class="content">
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        <div class="fullscreen-container">
+          <button class="iconbtn exit-fullscreen">
+            <span class="material-symbols-outlined"> arrow_back </span>
+          </button>
+          <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list" id="splide__list"></ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <script src="../indexCB.js"></script>
+    <script>
+      const imagesList = [
+        "../images/Events-1.jpg",
+        "../images/Events-2.jpg",
+        "../images/Events-3.jpg",
+        "../images/Events-4.jpg",
+        "../images/Events-5.jpg",
+        "../images/Events-49.jpg",
+        "../images/Events-7.jpg",
+        "../images/Events-8.jpg",
+        "../images/Events-9.jpg",
+        "../images/Events-10.jpg",
+        "../images/Events-11.jpg",
+        "../images/Events-12.jpg",
+        "../images/Events-13.jpg",
+        "../images/Events-14.jpg",
+        "../images/Events-15.jpg",
+        "../images/Events-6.jpg",
+        "../images/Events-17.jpg",
+        "../images/Events-18.jpg",
+        "../images/Events-19.jpg",
+        "../images/Events-20.jpg",
+        "../images/Events-21.jpg",
+        "../images/Events-22.jpg",
+        "../images/Events-23.jpg",
+        "../images/Events-24.jpg",
+        "../images/Events-25.jpg",
+        "../images/Events-26.jpg",
+        "../images/Events-27.jpg",
+        "../images/Events-28.jpg",
+        "../images/Events-29.jpg",
+        "../images/Events-30.jpg",
+        "../images/Events-31.jpg",
+        "../images/Events-32.jpg",
+        "../images/Events-33.jpg",
+        "../images/Events-34.jpg",
+        "../images/Events-35.jpg",
+        "../images/Events-36.jpg",
+        "../images/Events-37.jpg",
+        "../images/Events-38.jpg",
+        "../images/Events-39.jpg",
+        "../images/Events-40.jpg",
+        "../images/Events-41.jpg",
+        "../images/Events-42.jpg",
+        "../images/Events-43.jpg",
+        "../images/Events-44.jpg",
+        "../images/Events-45.jpg",
+        "../images/Events-46.jpg",
+        "../images/Events-47.jpg",
+        "../images/Events-48.jpg",
+        "../images/Events-16.jpg",
+        "../images/Events-50.jpg",
+      ];
+    </script>
+  </body>
+</html>
