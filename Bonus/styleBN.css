@@ -1,5 +1,5 @@
 
-@property --myColor1 {
+/* @property --myColor1 {
   syntax: '<color>';
   initial-value: #f7da5a;
   inherits: false;
@@ -27,4 +27,4 @@ body {
 
   background: linear-gradient(180deg, var(--myColor1) 0%, var(--myColor2) 50%, var(--myColor3) 91%);
   transition: --myColor1 1s, --myColor2 1s, --myColor3 1s;
-}
+} */
